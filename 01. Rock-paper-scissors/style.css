@@ -1,0 +1,70 @@
+body{
+  background-color: #FBF5DD;
+  font-family: "Dancing Script", serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+#playerDisplay, #computerDisplay {
+  font-family: 'arial', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem; 
+  text-align: left; 
+  margin: 5px 0; 
+}
+
+#resultDisplay {
+  font-family: 'roboto', cursive;
+  font-size: 5rem;
+  font-weight: bold;
+
+}
+
+#choices button {
+  font-size: 3rem;  /* Adjust the emoji size directly */
+  padding: 10px 10px;  /* Adjust padding to fit the button around the emoji */
+  margin: 15px;  /* Add space between the buttons */
+  background-color: #f0f0f0; /* Optional: Background color */
+  border: none;  /* Optional: Remove default border */
+  border-radius: 20px; /* Optional: Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.5s ease; /* Smooth background transition */
+}
+
+#choices button:hover {
+  background-color: #181616; /* Change background on hover */
+}
+
+#resetButton {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 10px 0;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.scoreDisplay {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1px 0;
+}
+
+#playerScoreDisplay {
+  color: #2E86C1;
+}
+
+#computerScoreDisplay {
+  color: #C0392B;
+}
